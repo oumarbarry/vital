@@ -83,6 +83,20 @@ module.exports = configure(function (/* ctx */) {
             dts: 'src/components.d.ts',
           },
         ],
+        [
+          'unplugin-auto-import/vite',
+          {
+            imports: [
+              'vue',
+              'vue-router',
+              {
+                quasar: ['useQuasar', 'useMeta'],
+                axios: [['default', 'axios']],
+              },
+            ],
+            dts: 'src/auto-imports.d.ts',
+          },
+        ],
       ],
     },
 
