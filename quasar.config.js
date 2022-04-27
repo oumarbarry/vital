@@ -74,6 +74,7 @@ module.exports = configure(function (/* ctx */) {
         reactivityTransform: true,
       },
       vitePlugins: [
+        ['unocss/vite'],
         [
           'unplugin-vue-components/vite',
           {
@@ -89,6 +90,7 @@ module.exports = configure(function (/* ctx */) {
             imports: [
               'vue',
               'vue-router',
+              'pinia',
               {
                 quasar: ['useQuasar', 'useMeta'],
                 axios: [['default', 'axios']],
