@@ -73,10 +73,17 @@ module.exports = configure(function (/* ctx */) {
       viteVuePluginOptions: {
         reactivityTransform: true,
       },
-
-      // vitePlugins: [
-      //   [ 'package-name', { ..options.. } ]
-      // ]
+      vitePlugins: [
+        [
+          'unplugin-vue-components/vite',
+          {
+            resolvers: [
+              require('unplugin-vue-components/resolvers').QuasarResolver(),
+            ],
+            dts: 'src/components.d.ts',
+          },
+        ],
+      ],
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#devServer
