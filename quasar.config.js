@@ -91,8 +91,10 @@ module.exports = configure(function (/* ctx */) {
           {
             imports: [
               'vue',
-              'vue-router',
               'pinia',
+              'vue-router',
+              '@vueuse/head',
+              '@vueuse/core',
               {
                 quasar: ['useQuasar', 'useMeta'],
                 axios: [['default', 'axios']],
