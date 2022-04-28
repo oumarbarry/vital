@@ -6,16 +6,10 @@ import {
   createWebHistory,
 } from 'vue-router';
 
-import routes from './routes';
+import { setupLayouts } from 'virtual:generated-layouts'
+import generatedRoutes from 'virtual:generated-pages'
 
-/*
- * If not building with SSR mode, you can
- * directly export the Router instantiation;
- *
- * The function below can be async too; either use
- * async/await or return a Promise which resolves
- * with the Router instance.
- */
+const routes = setupLayouts(generatedRoutes)
 
 export default route(function (/* { store, ssrContext } */) {
   const createHistory = process.env.SERVER
