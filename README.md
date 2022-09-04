@@ -59,7 +59,7 @@ Opiniated Quasar + Vite starter template.
 Use [degit](https://github.com/Rich-Harris/degit) to clone to your machine with an empty git history
 
 ```bash
-npx degit oumarbarry/vital my-vital-app
+npx tiged oumarbarry/vital my-vital-app
 cd my-vital-app
 yarn
 ```
