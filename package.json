@@ -33,7 +33,7 @@
     "@vue/test-utils": "^2.0.0-rc.21",
     "autoprefixer": "^10.4.2",
     "c8": "^7.11.2",
-    "eslint": "^8.10.0",
+    "eslint": "8.24.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^8.5.0",
     "husky": "^7.0.0",
