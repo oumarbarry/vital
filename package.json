@@ -44,7 +44,7 @@
     "unocss": "^0.31.17",
     "unplugin-auto-import": "^0.7.1",
     "unplugin-vue-components": "^0.19.3",
-    "vite-plugin-pages": "^0.23.0",
+    "vite-plugin-pages": "^0.27.0",
     "vite-plugin-vue-layouts": "^0.6.0",
     "vitest": "^0.10.0"
   },
