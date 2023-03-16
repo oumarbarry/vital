@@ -365,6 +365,11 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
+"@types/web-bluetooth@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz#1d12873a8e49567371f2a75fe3e7f7edca6662d8"
+  integrity sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==
+
 "@typescript-eslint/eslint-plugin@^5.10.0":
   version "5.36.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.36.2.tgz#6df092a20e0f9ec748b27f293a12cb39d0c1fe4d"
@@ -680,13 +685,14 @@
   resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.0.2.tgz#0b5edd683366153d5bc5a91edc62f292118710eb"
   integrity sha512-E2P4oXSaWDqTZNbmKZFVLrNN/siVN78YkEqs7pHryWerrlZR9bBFLWdJwRoguX45Ru6HxIflzKl4vQvwRMwm5g==
 
-"@vueuse/core@8.3.1":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-8.3.1.tgz#7f2c5977cc0690a803f44c3f5c291536ad7880d1"
-  integrity sha512-WiXUgVyPG9elGx3G8UV8g+zqbEJ2hYacrPICogAxDdW6hnxxcUFdF7FtvDroJ/DxWmo2pg8XNNz07ybfnZyJbw==
+"@vueuse/core@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.13.0.tgz#2f69e66d1905c1e4eebc249a01759cf88ea00cf4"
+  integrity sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==
   dependencies:
-    "@vueuse/metadata" "8.3.1"
-    "@vueuse/shared" "8.3.1"
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "9.13.0"
+    "@vueuse/shared" "9.13.0"
     vue-demi "*"
 
 "@vueuse/head@0.7.9":
@@ -694,15 +700,15 @@
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.7.9.tgz#888ab87667ab6dbe6edba10d176fa91c1b0ec021"
   integrity sha512-5wnRiH2XIUSLLXJDLDDTcpvAg5QXgTIVZl46AU7to/T91KHsdBLHSE4WhRO7kP0jbkAhlxnx64E29cQtwBrMjg==
 
-"@vueuse/metadata@8.3.1":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-8.3.1.tgz#acc0ff9ad686c68dfc7b4869639c43e71ae2682b"
-  integrity sha512-1aZaFL44HzXXkfN6Q7KMDOXBFKTHDClHlOJBxtN8rTBXIIScoGOrJCpxWiQ4kuVg95MzG/pHrd3P4wd8poL9XQ==
+"@vueuse/metadata@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.13.0.tgz#bc25a6cdad1b1a93c36ce30191124da6520539ff"
+  integrity sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==
 
-"@vueuse/shared@8.3.1":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-8.3.1.tgz#a941ef6a0eaf483ecb0e88a062163d506c22cc4b"
-  integrity sha512-7HKLCcxp4dtONq6QSSoavblo9riYgqzw7jhqiC0/VUYMXKzqj1G/GznOzTmY8Wi8uKKT197JqjKQ1DKt2j/0+A==
+"@vueuse/shared@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.13.0.tgz#089ff4cc4e2e7a4015e57a8f32e4b39d096353b9"
+  integrity sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==
   dependencies:
     vue-demi "*"
 
